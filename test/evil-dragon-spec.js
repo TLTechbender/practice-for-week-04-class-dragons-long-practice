@@ -97,7 +97,7 @@ describe("EvilDragon class", () => {
       console.log.restore();
     });
 
-    it("logs each evil doing to the console", () => {        
+    it("logs each evil doing to the console", () => {
       const instance = new EvilDragon(
         "Ender Dragon",
         "black",
@@ -122,7 +122,7 @@ describe("EvilDragon class", () => {
         console.log.calledWith(
           "Ender Dragon will destroy all blocks in its way"
         )
-      ).to.be.true;        
+      ).to.be.true;
     });
   });
 
